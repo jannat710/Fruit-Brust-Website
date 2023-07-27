@@ -43,8 +43,8 @@
     <header>
         <!-- navbar section start here -->
         <section class="max-w-screen-xl mx-auto">
-            <div class="container mx-auto navbar bg-[#F85559] rounded-full text-white">
-                <div class="flex-1 ">
+            <div class="container mx-auto navbar bg-white md:bg-[#F85559] lg:bg-[#F85559] rounded-full text-black md:text-white lg:text-white flex justify-between items-center">
+                <div class="nav-start order-2 md:order-1">
                     <div class="dropdown">
                         <label tabindex="0" class="btn btn-ghost lg:hidden">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
@@ -54,14 +54,14 @@
                             </svg>
                         </label>
                         <ul tabindex="0"
-                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 text-base shadow bg-base-100 rounded-box w-52 text-black">
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 text-base shadow bg-base-100 rounded-box w-52 text-black hidden">
                             <li><a>Home</a></li>
                             <li><a>About Us</a></li>
                             <li><a>Shop</a></li>
                             <li><a>All Fruits</a></li>
                         </ul>
                     </div>
-
+        
                     <div class=" hidden lg:flex">
                         <ul class="menu text-base menu-horizontal px-1">
                             <li><a>Home</a></li>
@@ -71,7 +71,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="flex-none">
+                <div class="nav-center order-1 md:order-2">
                     <a class="btn btn-ghost normal-case text-xl">
                         <div>
                             <img class="w-8" src="images/logo.png" alt="">
@@ -79,7 +79,7 @@
                         Fruit Burst
                     </a>
                 </div>
-                <div class="flex-1 hidden sm:block">
+                <div class="nav-end hidden sm:block order-3">
                     <div
                         class=" bg-white text-gray-400 max-w-xs mx-auto flex justify-between items-center p-2 rounded-full mr-8">
                         <input type="text" value="Search here">
@@ -93,7 +93,7 @@
         <section class="relative max-w-screen-xl mx-auto my-10 px-5 md:px-5 lg:px-0">
             <div class="carousel">
                 <div id="slide1" class="carousel-item relative w-full flex justify-center items-center">
-                    <img src="./images/banner1.png" class="w-full " />
+                    <img src="./images/banner1.png" class="w-full" />
                     <div class="absolute text-center text-white space-y-2">
                         <h1 class="text-xl md:text-5xl lg:text-7xl font-semibold">Exotic tastes at your <br> doorstep
                         </h1>
@@ -181,7 +181,7 @@
         <section class="max-w-screen-xl mx-auto my-10 lg:my-20">
             <div class="flex justify-between gap-5 flex-col md:flex-col lg:flex-row ">
                 <div class="flex-1 text-center lg:text-left px-5 md:px-5 lg:px-0">
-                    <h2 class="text-3xl lg:text-5xl font-extrabold mt-9">Deal of the day</h2>
+                    <h2 class="text-3xl lg:text-5xl font-extrabold mt-9 my-6">Deal of the day</h2>
                     <p class="text-base font-medium lg:max-w-2xl">Contrary to popular belief, is not simply random text.
                         It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
                     </p>
